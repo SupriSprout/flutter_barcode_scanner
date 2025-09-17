@@ -46,7 +46,7 @@ public class FlutterBarcodeScannerPlugin implements FlutterPlugin, MethodCallHan
     private static EventChannel.EventSink barcodeStream;
 
     private ActivityPluginBinding activityBinding;
-    private Activity activity;
+    private static Activity activity;
     private Application applicationContext;
     private Lifecycle lifecycle;
     private LifeCycleObserver observer;
